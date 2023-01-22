@@ -11,6 +11,7 @@ describe("Test Suite", function () {
       this.data = database;
     });
   });
+
   it("Framework test case", function () {
     const homepage = new Homepage();
     const productpage = new Productpage();
